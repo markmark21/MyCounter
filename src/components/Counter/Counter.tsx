@@ -9,14 +9,12 @@ const Counter = () => {
     ${likes >= 5 ? c.red : ''}
     `
     return (
-        <div>
+        <div className={'container'}>
             <div className={finalClassname}>
                 {likes}
             </div>
-            <div className={s.btn}>
+            <div className={'btn'}>
                 <SuperButton callback={() => {setLikes(likes + 1)}} title={'Increment'} isDisabled={likes >= 5}/>
-            </div>
-            <div className={s.btn}>
                 <SuperButton callback={() => {setLikes(0)}} title={'Reset'} isDisabled={likes <= 0}/>
             </div>
 

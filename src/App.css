@@ -1,12 +1,15 @@
 .App {
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  font-size: 25px;
-
+    text-align: center;
 }
 
+.container {
+    margin: 25px;
+    width: 350px;
+    height: 200px;
+    text-align: center;
+    border: cornflowerblue 3px solid;
+    padding-top: 50px;
+    border-radius: 10px;
+}
 
 
